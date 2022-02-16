@@ -1,0 +1,24 @@
+{
+  "name": "proxy-mysql-deadlock-retries",
+  "version": "1.0.0",
+  "description": "A mysql middleware to handle deadlock retries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matteomattei/proxy-mysql-deadlock-retries.git"
+  },
+  "keywords": [
+    "mysql",
+    "deadlock",
+    "middleware"
+  ],
+  "author": "Matteo Mattei <matteo.mattei@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matteomattei/proxy-mysql-deadlock-retries/issues"
+  },
+  "homepage": "https://github.com/matteomattei/proxy-mysql-deadlock-retries#readme"
+}
