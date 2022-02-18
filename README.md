@@ -30,9 +30,9 @@ const connection = mysql.createConnection({
   database: 'my_db'
 });
 
-const retries: 5;      // How many times will the query be retried when the ER_LOCK_DEADLOCK error occurs
-const minMillis: 1;    // The minimum amount of milliseconds that the system sleeps before retrying
-const maxMillis: 100;  // The maximum amount of milliseconds that the system sleeps before retrying
+const retries = 5;      // How many times will the query be retried when the ER_LOCK_DEADLOCK error occurs
+const minMillis = 1;    // The minimum amount of milliseconds that the system sleeps before retrying
+const maxMillis = 100;  // The maximum amount of milliseconds that the system sleeps before retrying
 
 proxyMysqlDeadlockRetries(connection, retries, minMillis, maxMillis);
 
